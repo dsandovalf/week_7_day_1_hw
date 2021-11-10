@@ -3,6 +3,7 @@
 the list and checks that the current name is in the string passed in. The output should be:
 "Matched dog_name" if name is in the string, if no matches are present console.log "No Matches"
 */
+
 let dog_string = "Hello Max, my name is Dog, and I have purple eyes!"
 let dog_names = ["Max","HAS","PuRple","dog"]
 
@@ -18,25 +19,6 @@ function findWords(){
 };
 
 findWords()
-
-
-// let dog_string = "Hello Max, my name is Dog, and I have purple eyes!"
-// let dog_names = ["Max","HAS","PuRple","dog"]
-
-// function findWords(){
-//     for (let i = 0; i < dog_names.length; i++){
-//         for (let j = 0; j < dog_string.length; j++){
-//             if (dog_names[i] = dog_string.split(", ")){
-//                 console.log('Matched ' + dog_names[i])
-//             }else{
-//                 console.log('No Matches')
-//             }
-//         }  
-//     }
-// };
-
-// findWords() 
-
 
 
 
